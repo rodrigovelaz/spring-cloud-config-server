@@ -2,11 +2,11 @@
 
 # Dependencies
 
-- Java 1.8
-- SpringBoot 1.5.2.RELEASE
-- SpringBoot Actuator
-- SpringCloud Camden.SR5
-- SpringCLoud Eureka
+- java 1.8
+- spring-boot 1.5.2.RELEASE
+- spring-boot actuator
+- spring-cloud Camden.SR5
+- spring-cloud eureka-client
 
 # Default config 
 
