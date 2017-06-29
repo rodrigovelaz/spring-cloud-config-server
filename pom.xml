@@ -4,7 +4,7 @@
 
 	<groupId>org.rodrigovelaz</groupId>
 	<artifactId>spring-cloud-config-server</artifactId>
-	<version>Camden.SR5</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>spring-cloud-config-server</name>
