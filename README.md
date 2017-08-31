@@ -29,8 +29,8 @@
 * DbEnviroment Oracle config
 - spring.profiles.active: db
 - spring.datasource.url: jdbc:oracle:thin:@<IP>:<PORT>/<SERVICE>
-- spring.datasource.username: SVAGW
-- spring.datasource.password: Viamonte1621
+- spring.datasource.username: username
+- spring.datasource.password: password
 - spring.datasource.dbcp2.initial-size: 10
 - spring.datasource.dbcp2.max-total: 100
 - spring.datasource.dbcp2.pool-prepared-statements: true
