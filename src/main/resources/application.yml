@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 18888
 
 management:
   security:
@@ -12,3 +12,8 @@ security:
 spring:
   application:
     name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/rodrigovelaz/application-configuration

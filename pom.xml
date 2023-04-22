@@ -55,37 +55,37 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
-		
+		<!--
 		<dependency>
 			<groupId>org.rodrigovelaz</groupId>
 			<artifactId>spring-cloud-config-server-db</artifactId>
 			<version>1.0.2</version>
 		</dependency>
-		
+		-->
 		<!-- Persistence -->
-
+<!--
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-dbcp2</artifactId>
-        </dependency>
-		
-		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc6</artifactId>
-			<version>11.2.0.4</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-		</dependency>
-		
-	</dependencies>
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-dbcp2</artifactId>
+    </dependency>
+
+    <dependency>
+        <groupId>com.oracle</groupId>
+        <artifactId>ojdbc6</artifactId>
+        <version>11.2.0.4</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+    </dependency>-->
+    
+</dependencies>
 
 	<build>
 		<plugins>
@@ -107,25 +107,25 @@
 		
 		
 <!-- 
-		<plugin>
-			<groupId>com.spotify</groupId>
-			<artifactId>docker-maven-plugin</artifactId>
-			<version>1.0.0</version>
-			<configuration>
-				<imageName>example</imageName>
-				<baseImage>java</baseImage>
-				<entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
-		
-				<resources>
-					<resource>
-						<targetPath>/</targetPath>
-						<directory>${project.build.directory}</directory>
-						<include>${project.build.finalName}.jar</include>
-					</resource>
-				</resources>
-			</configuration>
-		</plugin>
- -->
+    <plugin>
+        <groupId>com.spotify</groupId>
+        <artifactId>docker-maven-plugin</artifactId>
+        <version>1.0.0</version>
+        <configuration>
+            <imageName>example</imageName>
+            <baseImage>java</baseImage>
+            <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
+    
+            <resources>
+                <resource>
+                    <targetPath>/</targetPath>
+                    <directory>${project.build.directory}</directory>
+                    <include>${project.build.finalName}.jar</include>
+                </resource>
+            </resources>
+        </configuration>
+    </plugin>
+-->
 <!-- 
 		<plugin>
 			<groupId>com.spotify</groupId>
